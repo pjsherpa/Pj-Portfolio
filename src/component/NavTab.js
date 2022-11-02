@@ -43,7 +43,7 @@ const NavTab = ({ currentPage, handlePageChange }) => {
             href="#resume"
             onClick={() => handlePageChange("Resume")}
             className={
-              currentPage === "Resume" ? "nav-link-active" : "nav-link"
+              currentPage === "Resume" ? "nav-link active" : "nav-link"
             }
           >
             Resume
