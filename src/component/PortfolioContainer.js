@@ -8,7 +8,7 @@ import Resume from "./pages/Resume";
 const PortfolioContainer = () => {
   const [currentPage, setCurrentPage] = useState("AboutMe");
 
-  //Once we select navbar items the page gets rendered to the selected component as it is being called.
+  //Once we select navbar items the page gets rendered to the selected component as it's function is being called from pages.js.
   const renderPage = () => {
     if (currentPage === "AboutMe") {
       return <AboutMe />;
@@ -23,11 +23,14 @@ const PortfolioContainer = () => {
       return <Resume />;
     }
   };
+
   const handlePageChange = (page) => setCurrentPage(page);
 
   return (
     <div>
+      {/* {propping the handlePageChange function to trigger the page change while calling in our NavTabs} */}
       <NavTabs currentPage={currentPage} handlePageChange={handlePageChange} />
+      {/* {calling the rendered page} */}
       {renderPage()}
     </div>
   );
