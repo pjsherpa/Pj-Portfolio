@@ -7,6 +7,7 @@ import Resume from "./pages/Resume";
 import { FaGithubSquare, FaEnvelope } from "react-icons/fa";
 import { GrLinkedin } from "react-icons/gr";
 import { IconContext } from "react-icons";
+import "../App.css";
 
 const PortfolioContainer = () => {
   const [currentPage, setCurrentPage] = useState("AboutMe");
@@ -43,7 +44,7 @@ const PortfolioContainer = () => {
 
       <footer
         id="footer"
-        class="fixed-bottom flex-shrink-0 py-4 bg-dark text-white-50"
+        class="d-flex flex-column flex-sm-row justify-content-between py-4 my border-top bg-dark"
       >
         <div className="container">
           <div className="row justify-content-md-center">
