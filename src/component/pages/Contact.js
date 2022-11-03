@@ -65,7 +65,7 @@ const Contact = () => {
         <button
           type="button"
           onClick={handleFormSubmit}
-          className="btn btn-primary my-2 mx-auto w-100"
+          className="btn btn-secondary my-2 mx-auto w-100"
         >
           Submit
         </button>

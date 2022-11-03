@@ -44,12 +44,12 @@ const PortfolioContainer = () => {
 
       <footer
         id="footer"
-        class="d-flex flex-column flex-sm-row justify-content-between py-4 my border-top bg-dark"
+        class="d-flex bottom flex-column flex-sm-row justify-content-between py-4 my border-top"
       >
         <div className="container">
           <div className="row justify-content-md-center">
-            <IconContext.Provider value={{ color: "white", size: "40px" }}>
-              <div className="col col-lg-2 hover-zoom">
+            <IconContext.Provider value={{ color: "black", size: "40px" }}>
+              <div className="col col-lg-2 hover">
                 <a href="https://www.linkedin.com/in/pjsherpa/">
                   <GrLinkedin class="w-100" />
                 </a>
@@ -59,7 +59,7 @@ const PortfolioContainer = () => {
                   <FaEnvelope class="w-100" />
                 </a>
               </div>
-              <div className="col col-lg-2 hover-zoom">
+              <div className="col col-lg-2 hover">
                 <a href="https://github.com/pjsherpa">
                   <FaGithubSquare class="w-100" />
                 </a>
