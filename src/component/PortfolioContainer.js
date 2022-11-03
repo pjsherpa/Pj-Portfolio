@@ -42,25 +42,25 @@ const PortfolioContainer = () => {
       </div>
 
       <footer
-        id="sticky-footer"
+        id="footer"
         class="fixed-bottom flex-shrink-0 py-4 bg-dark text-white-50"
       >
         <div className="container">
           <div className="row justify-content-md-center">
             <IconContext.Provider value={{ color: "white", size: "40px" }}>
-              <div className="col col-lg-2">
+              <div className="col col-lg-2 hover-zoom">
                 <a href="https://www.linkedin.com/in/pjsherpa/">
-                  <GrLinkedin />
+                  <GrLinkedin class="w-100" />
                 </a>
               </div>
-              <div className="col col-lg-2">
+              <div className="col col-lg-2 hover">
                 <a href="mailto:phinjock@gmail.com">
-                  <FaEnvelope />
+                  <FaEnvelope class="w-100" />
                 </a>
               </div>
-              <div className="col col-lg-2">
+              <div className="col col-lg-2 hover-zoom">
                 <a href="https://github.com/pjsherpa">
-                  <FaGithubSquare />
+                  <FaGithubSquare class="w-100" />
                 </a>
               </div>
             </IconContext.Provider>

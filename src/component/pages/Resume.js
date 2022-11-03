@@ -2,7 +2,7 @@ import React from "react";
 
 const Resume = () => {
   return (
-    <div>
+    <div className="container">
       <h4>
         Download my{" "}
         <a href="https://docs.google.com/document/d/1_AR6Qhe_6464mdEILu2mKdwMZJvdm1HeEiKo3-uxKlo/edit?usp=sharing">
