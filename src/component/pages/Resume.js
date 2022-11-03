@@ -10,7 +10,7 @@ const Resume = () => {
         </a>
       </h4>
       <h1>Resume</h1>
-      <h3>Front End</h3>
+      <h3>Front-End Proficiencies</h3>
       <ul>
         <li>HTML</li>
         <li>CSS</li>
@@ -21,7 +21,7 @@ const Resume = () => {
         <li>bootstrap</li>
         <li>Bulma</li>
       </ul>
-      <h3>Back End</h3>
+      <h3>Back-End proficiencies</h3>
       <ul>
         <li>API's</li>
         <li>Node</li>
