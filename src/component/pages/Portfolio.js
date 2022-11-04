@@ -22,7 +22,10 @@ const Portfolio = () => {
                 <Card.Body>
                   <Card.Title>
                     <Button className="bg-image hoversm" variant="transparent">
-                      <a href="https://codeapedia.herokuapp.com/">
+                      <a
+                        href="https://codeapedia.herokuapp.com/"
+                        className="siteLink"
+                      >
                         Code-a-pedia
                       </a>
                     </Button>
@@ -46,7 +49,12 @@ const Portfolio = () => {
                 <Card.Body>
                   <Card.Title>
                     <Button className="bg-image hoversm" variant="transparent">
-                      <a href="https://pjsherpa.github.io/AirSoup/">AirSoup</a>
+                      <a
+                        href="https://pjsherpa.github.io/AirSoup/"
+                        className="siteLink"
+                      >
+                        AirSoup
+                      </a>
                     </Button>
                     {"  "}
                     <Button className="bg-image hoversm" variant="transparent">
@@ -71,7 +79,10 @@ const Portfolio = () => {
                 <Card.Body>
                   <Card.Title>
                     <Button className="bg-image hoversm" variant="transparent">
-                      <a href="https://pjsherpa.github.io/weather-dashboard-v.01/">
+                      <a
+                        href="https://pjsherpa.github.io/weather-dashboard-v.01/"
+                        className="siteLink"
+                      >
                         Weather
                       </a>
                     </Button>
@@ -92,7 +103,10 @@ const Portfolio = () => {
                 <Card.Body>
                   <Card.Title>
                     <Button className="bg-image hoversm" variant="transparent">
-                      <a href="https://cryptic-island-27891.herokuapp.com/">
+                      <a
+                        href="https://cryptic-island-27891.herokuapp.com/"
+                        className="siteLink"
+                      >
                         Note Taker
                       </a>
                     </Button>
@@ -116,7 +130,10 @@ const Portfolio = () => {
                 <Card.Body>
                   <Card.Title>
                     <Button className="bg-image hoversm" variant="transparent">
-                      <a href="https://pjsherpa.github.io/Work-Day-Scheduler/">
+                      <a
+                        href="https://pjsherpa.github.io/Work-Day-Scheduler/"
+                        className="siteLink"
+                      >
                         Scheduler
                       </a>
                     </Button>
@@ -137,7 +154,10 @@ const Portfolio = () => {
                 <Card.Body>
                   <Card.Title>
                     <Button className="bg-image hoversm" variant="transparent">
-                      <a href="https://pjsherpa.github.io/Password-Generator/">
+                      <a
+                        href="https://pjsherpa.github.io/Password-Generator/"
+                        className="siteLink"
+                      >
                         Create Password
                       </a>
                     </Button>

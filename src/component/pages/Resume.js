@@ -1,13 +1,16 @@
 import React from "react";
 
-
 const Resume = () => {
   return (
     <div className="container">
       <h4>
         Download my{" "}
-        <a href="PjResume.pdf" download="PjResume.pdf">
-            Resume
+        <a
+          href="PjResume.pdf"
+          download="PjResume.pdf"
+          style={{ color: "black", fontSize: "large" }}
+        >
+          Resume
         </a>
       </h4>
       <h1>Resume</h1>

@@ -1,3 +1,12 @@
+* {
+  font-family: "Open Sans";
+  font-size: medium;
+}
+
+.siteLink {
+  color:black
+}
+/* animation */
 .hover:hover {
   transform: scale(2);
   transition-duration: 0.5s;
@@ -11,8 +20,4 @@
 .hovercard:hover {
   transform: scale(.9);
   transition-duration: 1s;
-}
-
-body{
-  font:
 }
