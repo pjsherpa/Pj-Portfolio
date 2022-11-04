@@ -38,7 +38,7 @@ const Contact = () => {
   }, (error) => {
       console.log('Failed',error.text);
   })
-  alert("Email Sent")
+  alert("Email Sent to Pj")
   };
 
 
