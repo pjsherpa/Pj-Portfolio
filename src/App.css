@@ -8,3 +8,11 @@
   transition-duration: 1.5s;
 }
 
+.hovercard:hover {
+  transform: scale(.9);
+  transition-duration: 1s;
+}
+
+a {
+color:black
+}
