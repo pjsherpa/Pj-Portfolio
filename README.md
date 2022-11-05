@@ -13,9 +13,9 @@ This Portfolio has been built using React. It gave me a good feel on how the rea
 
 Content:
 
-1. Mobile first design has been used for this web application. [img1](#img1)
+1. Mobile first design has been used for this web application. 
 2. The web application displays my name, about me,portfolio,contact,resume and in the footer some thrid party links to communicate with me and my github profile.
-3. Portfolio has both the deployed application and github repository provided, when clicked takes you the those links.[img2](#img2)
+3. Portfolio has both the deployed application and github repository provided, when clicked takes you the those links.
 4. In contact you can send me a message directly from the form. If name/email/message is missing it will not send out an email.
 5. Resume section you can download my resume.
 
@@ -32,10 +32,10 @@ https://pjsherpa.github.io/Pj-Portfolio/
 
 ### Screenshots
 
-#### img1: 
+img1: 
 
-![img 1](<img width="499" alt="Screenshot 2022-11-04 at 9 28 56 PM" src="https://user-images.githubusercontent.com/105903416/200100789-2cf49201-7e47-4089-bea3-43effc66676d.png">)
+<img width="499" alt="Screenshot 2022-11-04 at 9 28 56 PM" src="https://user-images.githubusercontent.com/105903416/200100789-2cf49201-7e47-4089-bea3-43effc66676d.png">
 
-#### img2: 
+img2: 
 
-![img 2](<img width="908" alt="Screenshot 2022-11-04 at 9 31 10 PM" src="https://user-images.githubusercontent.com/105903416/200101102-f845ec9c-77b0-4acb-83f9-3f806a4a126d.png">)
+<img width="908" alt="Screenshot 2022-11-04 at 9 31 10 PM" src="https://user-images.githubusercontent.com/105903416/200101102-f845ec9c-77b0-4acb-83f9-3f806a4a126d.png">
