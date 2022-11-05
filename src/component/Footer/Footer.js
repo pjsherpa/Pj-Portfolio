@@ -2,7 +2,7 @@ import { FaGithubSquare, FaEnvelope } from "react-icons/fa";
 import { GrLinkedin } from "react-icons/gr";
 import { TfiInstagram } from "react-icons/tfi";
 import { IconContext } from "react-icons";
-
+import Card from "react-bootstrap/Card";
 const Footer = () => {
   return (
     <footer
@@ -34,6 +34,11 @@ const Footer = () => {
             </div>
           </IconContext.Provider>
         </div>
+        <br></br>
+        <Card.Text className="text-center">
+          Phone no: 707 931 9391 Email: phinjock@gmail <br></br>Based in:Sonoma,
+          California
+        </Card.Text>
       </div>
     </footer>
   );
