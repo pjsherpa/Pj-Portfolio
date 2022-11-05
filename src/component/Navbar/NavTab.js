@@ -12,7 +12,9 @@ const NavTab = ({ currentPage, handlePageChange }) => {
             onClick={() => handlePageChange("AboutMe")}
             //changes selected nav-items to 'nav-link-active' using bootstrap to show a better visual, stating we are in this page.
             className={
-              currentPage === "AboutMe" ? "nav-link active" : "nav-link"
+              currentPage === "AboutMe"
+                ? "nav-link active text-dark"
+                : "nav-link"
             }
           >
             About Me
@@ -24,7 +26,9 @@ const NavTab = ({ currentPage, handlePageChange }) => {
             style={{ color: "white" }}
             onClick={() => handlePageChange("Portfolio")}
             className={
-              currentPage === "Portfolio" ? "nav-link active" : "nav-link"
+              currentPage === "Portfolio"
+                ? "nav-link active text-dark"
+                : "nav-link"
             }
           >
             Portfolio
@@ -36,7 +40,9 @@ const NavTab = ({ currentPage, handlePageChange }) => {
             style={{ color: "white" }}
             onClick={() => handlePageChange("Contact")}
             className={
-              currentPage === "Contact" ? "nav-link active" : "nav-link"
+              currentPage === "Contact"
+                ? "nav-link active text-dark"
+                : "nav-link"
             }
           >
             Contact
@@ -48,7 +54,9 @@ const NavTab = ({ currentPage, handlePageChange }) => {
             style={{ color: "white" }}
             onClick={() => handlePageChange("Resume")}
             className={
-              currentPage === "Resume" ? "nav-link active" : "nav-link"
+              currentPage === "Resume"
+                ? "nav-link active text-dark"
+                : "nav-link"
             }
           >
             Resume

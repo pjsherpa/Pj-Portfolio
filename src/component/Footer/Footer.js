@@ -1,5 +1,6 @@
 import { FaGithubSquare, FaEnvelope } from "react-icons/fa";
 import { GrLinkedin } from "react-icons/gr";
+import { TfiInstagram } from "react-icons/tfi";
 import { IconContext } from "react-icons";
 
 const Footer = () => {
@@ -24,6 +25,11 @@ const Footer = () => {
             <div className="col col-lg-2 hover">
               <a href="https://github.com/pjsherpa">
                 <FaGithubSquare className="w-100" />
+              </a>
+            </div>
+            <div className="col col-lg-2 hover">
+              <a href="https://www.instagram.com/wheniseeplaces/">
+                <TfiInstagram className="w-100" />
               </a>
             </div>
           </IconContext.Provider>

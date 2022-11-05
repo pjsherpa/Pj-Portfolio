@@ -103,7 +103,7 @@ const Contact = () => {
           onClick={handleFormSubmit}
           className="btn btn-secondary my-2 mx-auto w-100"
         >
-          Submit
+          Send Message
         </button>
       </form>
       {errorMessage && (

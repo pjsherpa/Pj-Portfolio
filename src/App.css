@@ -42,3 +42,11 @@ Card.body {
   padding: 5px;
   width: 150px;
 }
+
+.resume:hover{
+  transform:scale3d(1);
+}
+
+.topend{
+  color:whitesmoke
+}

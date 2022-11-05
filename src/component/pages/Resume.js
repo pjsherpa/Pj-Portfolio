@@ -4,16 +4,7 @@ const Resume = () => {
   return (
     <div className="container">
       <br></br>
-      <h4>
-        Download my{" "}
-        <a
-          href="PjResume.pdf"
-          download="PjResume.pdf"
-          style={{ color: "black", fontSize: "large" }}
-        >
-          Resume
-        </a>
-      </h4>
+
       <h1>Resume</h1>
       <h3>Front-End Proficiencies</h3>
       <ul>
@@ -39,6 +30,19 @@ const Resume = () => {
         <li>MVC</li>
         <li>ODM</li>
       </ul>
+      <h5 className="text-center">
+        Download Resume{" "}
+        <button type="button" className="btn btn-success btn-sm resume">
+          {" "}
+          <a
+            href="PjResume.pdf"
+            download="PjResume.pdf"
+            style={{ color: "black" }}
+          >
+            ⬇
+          </a>
+        </button>
+      </h5>
     </div>
   );
 };

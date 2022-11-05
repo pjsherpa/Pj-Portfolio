@@ -86,7 +86,7 @@ const Portfolio = () => {
                         href="https://pjsherpa.github.io/weather-dashboard-v.01/"
                         className="siteLink"
                       >
-                        Weather
+                        Weather Forecast
                       </a>
                     </Button>
                     {"  "}
@@ -97,7 +97,7 @@ const Portfolio = () => {
                     </Button>
                     <Card.Img src={Weather} />
                   </Card.Title>
-                  <Card.Text>Weather Forecast</Card.Text>
+                  <Card.Text>Always good to know the weather</Card.Text>
                 </Card.Body>
               </Card>
             </div>
@@ -122,7 +122,7 @@ const Portfolio = () => {
                     </Button>
                     <Card.Img src={Noteimg} />
                   </Card.Title>
-                  <Card.Text>Note takers</Card.Text>
+                  <Card.Text>Best practice is to always take notes</Card.Text>
                 </Card.Body>
               </Card>
             </div>
@@ -148,7 +148,7 @@ const Portfolio = () => {
                     </Button>
                     <Card.Img src={Schedulerimg} />
                   </Card.Title>
-                  <Card.Text>Work Day Scheduler</Card.Text>
+                  <Card.Text>Busy days needs a good schedule</Card.Text>
                 </Card.Body>
               </Card>
             </div>
@@ -161,7 +161,7 @@ const Portfolio = () => {
                         href="https://pjsherpa.github.io/Password-Generator/"
                         className="siteLink"
                       >
-                        Create Password
+                        Geneate password
                       </a>
                     </Button>
                     {"  "}
@@ -172,7 +172,7 @@ const Portfolio = () => {
                     </Button>
                     <Card.Img src={Passwordimg} />
                   </Card.Title>
-                  <Card.Text>Geneate password</Card.Text>
+                  <Card.Text>Create Password with character choices</Card.Text>
                 </Card.Body>
               </Card>
             </div>

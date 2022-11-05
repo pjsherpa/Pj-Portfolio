@@ -12,7 +12,7 @@ const Header = () => {
   //Once we select navbar items the page gets rendered to the selected component as it's function is being called from pages.js.
   const renderPage = () => {
     if (currentPage === "AboutMe") {
-      return <AboutMe />;
+      return <AboutMe style={{ color: "black" }} />;
     }
     if (currentPage === "Portfolio") {
       return <Portfolio />;
