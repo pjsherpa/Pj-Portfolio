@@ -56,63 +56,66 @@ const Contact = () => {
     <>
       <div className="col-4 py-2 my-2 rounded mx-auto d-block">
         <h2>Contact</h2>
-
-        <form
-          id="new-post-form"
-          className="card-body"
-          ref={form}
-          onSubmit={handleFormSubmit}
-        >
-          <label className="form-label" htmlFor="post-title">
-            Name:
-          </label>
-          <input
-            type="text"
-            value={userName}
-            name="userName"
-            onChange={handleInputChange}
-            rows="3"
-            className="form-control"
-            required
-          />
-          <label className="form-label" htmlFor="post-body">
-            Email:
-          </label>
-          <input
-            value={email}
-            name="email"
-            onChange={handleInputChange}
-            type="email"
-            rows="3"
-            className="form-control"
-            required
-          />
-          <label className="form-label" htmlFor="post-body">
-            Message:
-          </label>
-          <textarea
-            value={message}
-            name="message"
-            onChange={handleInputChange}
-            className="form-control"
-            id="messagearea"
-            rows="3"
-            col="5"
-            required
-          />
-          <button
-            type="submit"
-            onClick={handleFormSubmit}
-            className="btn btn-secondary my-2 mx-auto w-100"
+        <div className="container">
+          <form
+            id="new-post-form"
+            className="form-group-*"
+            ref={form}
+            onSubmit={handleFormSubmit}
           >
-            Send Message
-          </button>
-        </form>
-        {errorMessage && (
-          <div>
-            <p className="error-text">{errorMessage}</p>
-          </div>
-        )}
+            <label className="form-label" htmlFor="inputdefault">
+              Name:
+            </label>
+            <input
+              type="text"
+              value={userName}
+              name="userName"
+              onChange={handleInputChange}
+              rows="3"
+              className="form-control"
+              id="inputdefault"
+              required
+            />
+            <label className="form-label" htmlFor="inputdefault">
+              Email:
+            </label>
+            <input
+              value={email}
+              name="email"
+              onChange={handleInputChange}
+              type="email"
+              rows="3"
+              className="form-control"
+              id="inputdefault"
+              required
+            />
+            <label className="form-label" htmlFor="inputdefault">
+              Message:
+            </label>
+            <textarea
+              value={message}
+              name="message"
+              onChange={handleInputChange}
+              className="form-control"
+              id="inputdefault"
+              rows="3"
+              col="5"
+              required
+            />
+            <button
+              type="submit"
+              onClick={handleFormSubmit}
+              className="btn btn-secondary my-2 mx-auto w-100"
+            >
+              Send Message
+            </button>
+          </form>
+          {errorMessage && (
+            <div>
+              <p className="error-text">{errorMessage}</p>
+            </div>
+          )}
+        </div>
       </div>
     </>
   );
