@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Pj-Portfolio/static/css/main.d09f2e7d.css",
-    "main.js": "/Pj-Portfolio/static/js/main.e0df65ac.js",
+    "main.css": "/Pj-Portfolio/static/css/main.a837b5bb.css",
+    "main.js": "/Pj-Portfolio/static/js/main.56f88e06.js",
     "static/js/787.7bea3622.chunk.js": "/Pj-Portfolio/static/js/787.7bea3622.chunk.js",
     "static/media/pj image.jpeg": "/Pj-Portfolio/static/media/pj image.5389ddb181f8a40eb36a.jpeg",
     "static/media/airsoup.png": "/Pj-Portfolio/static/media/airsoup.bd2d3f86d84112e9d526.png",
@@ -11,12 +11,12 @@
     "static/media/scheduler.png": "/Pj-Portfolio/static/media/scheduler.e6e713b6b30a02b86d0c.png",
     "static/media/PasswordGenerator.png": "/Pj-Portfolio/static/media/PasswordGenerator.05d2ba828b94e39330b0.png",
     "index.html": "/Pj-Portfolio/index.html",
-    "main.d09f2e7d.css.map": "/Pj-Portfolio/static/css/main.d09f2e7d.css.map",
-    "main.e0df65ac.js.map": "/Pj-Portfolio/static/js/main.e0df65ac.js.map",
+    "main.a837b5bb.css.map": "/Pj-Portfolio/static/css/main.a837b5bb.css.map",
+    "main.56f88e06.js.map": "/Pj-Portfolio/static/js/main.56f88e06.js.map",
     "787.7bea3622.chunk.js.map": "/Pj-Portfolio/static/js/787.7bea3622.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.d09f2e7d.css",
-    "static/js/main.e0df65ac.js"
+    "static/css/main.a837b5bb.css",
+    "static/js/main.56f88e06.js"
   ]
 }
