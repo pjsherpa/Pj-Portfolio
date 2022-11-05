@@ -14,10 +14,13 @@ import { IconContext } from "react-icons";
 const Portfolio = () => {
   return (
     <>
+      <br></br>
+      <h1 className="d-flex justify-content-md-center ">Portfolio</h1>
+      <br></br>
       <div className="container">
         <IconContext.Provider value={{ color: "black", size: "40px" }}>
           <div className="row">
-            <div className="col-lg-6 mb-4">
+            <div className="col-lg-6 mb-4 ">
               <Card className="text-center hovercard">
                 <Card.Body>
                   <Card.Title>
@@ -35,7 +38,7 @@ const Portfolio = () => {
                         <FaGithubSquare />
                       </a>
                     </Button>
-                    <Card.Img src={Codeapediaimg} />
+                    <Card.Img src={Codeapediaimg} className="portcard" />
                   </Card.Title>
                   <Card.Text>
                     This is a knowledge bank for coding
@@ -44,7 +47,7 @@ const Portfolio = () => {
                 </Card.Body>
               </Card>
             </div>
-            <div className="col-lg-6 mb-4">
+            <div className="col-lg-6 mb-4 ">
               <Card className="text-center hovercard">
                 <Card.Body>
                   <Card.Title>
@@ -74,7 +77,7 @@ const Portfolio = () => {
             </div>
           </div>
           <div className="row">
-            <div className="col-lg-6 mb-4">
+            <div className="col-lg-6 mb-4 ">
               <Card className="text-center hovercard">
                 <Card.Body>
                   <Card.Title>
@@ -98,7 +101,7 @@ const Portfolio = () => {
                 </Card.Body>
               </Card>
             </div>
-            <div className="col-lg-6 mb-4">
+            <div className="col-lg-6 mb-4 ">
               <Card className="text-center hovercard">
                 <Card.Body>
                   <Card.Title>
@@ -125,7 +128,7 @@ const Portfolio = () => {
             </div>
           </div>
           <div className="row">
-            <div className="col-lg-6 mb-4">
+            <div className="col-lg-6 mb-4 ">
               <Card className="text-center hovercard">
                 <Card.Body>
                   <Card.Title>
@@ -149,7 +152,7 @@ const Portfolio = () => {
                 </Card.Body>
               </Card>
             </div>
-            <div className="col-lg-6 mb-4">
+            <div className="col-lg-6 mb-4 ">
               <Card className="text-center hovercard">
                 <Card.Body>
                   <Card.Title>

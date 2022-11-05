@@ -6,11 +6,11 @@ const Footer = () => {
   return (
     <footer
       id="footer"
-      className="d-flex bottom flex-column flex-sm-row justify-content-between py-4 my border-top"
+      className="d-flex bottom flex-column flex-sm-row justify-content-between py-5 my border-top bg-secondary"
     >
       <div className="container">
         <div className="row justify-content-md-center">
-          <IconContext.Provider value={{ color: "black", size: "40px" }}>
+          <IconContext.Provider value={{ color: "white", size: "40px" }}>
             <div className="col col-lg-2 hover">
               <a href="https://www.linkedin.com/in/pjsherpa/">
                 <GrLinkedin className="w-100" />

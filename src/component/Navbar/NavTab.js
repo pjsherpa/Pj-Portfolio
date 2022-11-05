@@ -1,13 +1,14 @@
 import React from "react";
+
 //Assigning to own variable names
 const NavTab = ({ currentPage, handlePageChange }) => {
   return (
     <div>
-      <ul className="nav nav-tabs">
+      <ul className="nav nav-tabs topend">
         <li className="nav-item">
           <a
             href="#aboutme"
-            style={{ color: "grey" }}
+            style={{ color: "white" }}
             onClick={() => handlePageChange("AboutMe")}
             //changes selected nav-items to 'nav-link-active' using bootstrap to show a better visual, stating we are in this page.
             className={
@@ -20,7 +21,7 @@ const NavTab = ({ currentPage, handlePageChange }) => {
         <li className="nav-item">
           <a
             href="#portfolio"
-            style={{ color: "grey" }}
+            style={{ color: "white" }}
             onClick={() => handlePageChange("Portfolio")}
             className={
               currentPage === "Portfolio" ? "nav-link active" : "nav-link"
@@ -32,7 +33,7 @@ const NavTab = ({ currentPage, handlePageChange }) => {
         <li className="nav-item">
           <a
             href="#contact"
-            style={{ color: "grey" }}
+            style={{ color: "white" }}
             onClick={() => handlePageChange("Contact")}
             className={
               currentPage === "Contact" ? "nav-link active" : "nav-link"
@@ -44,7 +45,7 @@ const NavTab = ({ currentPage, handlePageChange }) => {
         <li className="nav-item">
           <a
             href="#resume"
-            style={{ color: "grey" }}
+            style={{ color: "white" }}
             onClick={() => handlePageChange("Resume")}
             className={
               currentPage === "Resume" ? "nav-link active" : "nav-link"

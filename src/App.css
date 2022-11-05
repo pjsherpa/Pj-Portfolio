@@ -21,3 +21,24 @@
   transform: scale(.9);
   transition-duration: 1s;
 }
+
+.topend, html {
+background-color:#6c757d ;
+}
+
+.my-pic {
+	clip-path: circle();
+  width: 250px;
+}
+
+p{
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  font-style: italic;
+}
+
+Card.body {
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 5px;
+  width: 150px;
+}
