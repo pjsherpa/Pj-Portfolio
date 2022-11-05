@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/Pj-Portfolio/static/css/main.f15415b5.css",
-    "main.js": "/Pj-Portfolio/static/js/main.8dc40c9a.js",
+    "main.css": "/Pj-Portfolio/static/css/main.d09f2e7d.css",
+    "main.js": "/Pj-Portfolio/static/js/main.e0df65ac.js",
     "static/js/787.7bea3622.chunk.js": "/Pj-Portfolio/static/js/787.7bea3622.chunk.js",
-    "static/media/airsoup.png": "/Pj-Portfolio/static/media/airsoup.b8eb2854caab5bc37259.png",
-    "static/media/weather dashboard.png": "/Pj-Portfolio/static/media/weather dashboard.12fd5892862b75356a9f.png",
     "static/media/pj image.jpeg": "/Pj-Portfolio/static/media/pj image.5389ddb181f8a40eb36a.jpeg",
-    "static/media/codepedia.png": "/Pj-Portfolio/static/media/codepedia.e292ccb4b292605ccbde.png",
-    "static/media/scheduler.png": "/Pj-Portfolio/static/media/scheduler.6db557fe54a749950468.png",
-    "static/media/Notetaker.png": "/Pj-Portfolio/static/media/Notetaker.a5f384c4171b9279ddeb.png",
-    "static/media/PasswordGenerator.png": "/Pj-Portfolio/static/media/PasswordGenerator.4ca0f193e0ca6d3b1fc5.png",
+    "static/media/airsoup.png": "/Pj-Portfolio/static/media/airsoup.bd2d3f86d84112e9d526.png",
+    "static/media/weather dashboard.png": "/Pj-Portfolio/static/media/weather dashboard.e549874278d2801ac6f0.png",
+    "static/media/codepedia.png": "/Pj-Portfolio/static/media/codepedia.f7c232937bcb734acba6.png",
+    "static/media/Notetaker.png": "/Pj-Portfolio/static/media/Notetaker.133c46b0d846069c6fe7.png",
+    "static/media/scheduler.png": "/Pj-Portfolio/static/media/scheduler.e6e713b6b30a02b86d0c.png",
+    "static/media/PasswordGenerator.png": "/Pj-Portfolio/static/media/PasswordGenerator.05d2ba828b94e39330b0.png",
     "index.html": "/Pj-Portfolio/index.html",
-    "main.f15415b5.css.map": "/Pj-Portfolio/static/css/main.f15415b5.css.map",
-    "main.8dc40c9a.js.map": "/Pj-Portfolio/static/js/main.8dc40c9a.js.map",
+    "main.d09f2e7d.css.map": "/Pj-Portfolio/static/css/main.d09f2e7d.css.map",
+    "main.e0df65ac.js.map": "/Pj-Portfolio/static/js/main.e0df65ac.js.map",
     "787.7bea3622.chunk.js.map": "/Pj-Portfolio/static/js/787.7bea3622.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.f15415b5.css",
-    "static/js/main.8dc40c9a.js"
+    "static/css/main.d09f2e7d.css",
+    "static/js/main.e0df65ac.js"
   ]
 }
