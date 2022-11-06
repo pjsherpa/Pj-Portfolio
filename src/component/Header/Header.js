@@ -29,7 +29,7 @@ const Header = () => {
   return (
     <header>
       <h1 className="topend">
-        Phinjock Sherpa <small>(Pj)</small>
+        Phinjock Sherpa <small>(Pj)'s</small> Portfolio
         {/* {propping the handlePageChange function to trigger the page change while calling in our NavTabs} */}
         <NavTabs
           currentPage={currentPage}
