@@ -28,7 +28,7 @@ const Header = () => {
   const handlePageChange = (page) => setCurrentPage(page);
   return (
     <header>
-      <h1 className="topend">
+      <h1 className="topend text-center">
         Phinjock Sherpa <small>(Pj)'s</small> Portfolio
         {/* {propping the handlePageChange function to trigger the page change while calling in our NavTabs} */}
         <NavTabs

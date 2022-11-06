@@ -54,7 +54,10 @@ const Contact = () => {
 
   return (
     <>
-      <div className="col-4 py-2 my-2 rounded mx-auto d-block">
+      <div
+        className="col-4 py-2 my-2 rounded mx-auto d-block"
+        style={{ width: "30rem" }}
+      >
         <h1>Contact</h1>
         <div className="container">
           <form
