@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Pj-Portfolio/static/css/main.eb63fd02.css",
-    "main.js": "/Pj-Portfolio/static/js/main.17f9d34f.js",
+    "main.js": "/Pj-Portfolio/static/js/main.ff29a02b.js",
     "static/js/787.7bea3622.chunk.js": "/Pj-Portfolio/static/js/787.7bea3622.chunk.js",
     "static/media/pj image.jpeg": "/Pj-Portfolio/static/media/pj image.5389ddb181f8a40eb36a.jpeg",
     "static/media/airsoup.png": "/Pj-Portfolio/static/media/airsoup.bd2d3f86d84112e9d526.png",
@@ -12,11 +12,11 @@
     "static/media/PasswordGenerator.png": "/Pj-Portfolio/static/media/PasswordGenerator.05d2ba828b94e39330b0.png",
     "index.html": "/Pj-Portfolio/index.html",
     "main.eb63fd02.css.map": "/Pj-Portfolio/static/css/main.eb63fd02.css.map",
-    "main.17f9d34f.js.map": "/Pj-Portfolio/static/js/main.17f9d34f.js.map",
+    "main.ff29a02b.js.map": "/Pj-Portfolio/static/js/main.ff29a02b.js.map",
     "787.7bea3622.chunk.js.map": "/Pj-Portfolio/static/js/787.7bea3622.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.eb63fd02.css",
-    "static/js/main.17f9d34f.js"
+    "static/js/main.ff29a02b.js"
   ]
 }
