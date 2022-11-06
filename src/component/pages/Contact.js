@@ -55,7 +55,7 @@ const Contact = () => {
   return (
     <>
       <div className="col-4 py-2 my-2 rounded mx-auto d-block">
-        <h2>Contact</h2>
+        <h1>Contact</h1>
         <div className="container">
           <form
             id="new-post-form"
