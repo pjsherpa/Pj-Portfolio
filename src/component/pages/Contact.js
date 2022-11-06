@@ -31,25 +31,26 @@ const Contact = () => {
       setErrorMessage("Email or username is invalid");
     } else if (!message) {
       setErrorMessage("No Message has been provided");
-    } else setErrorMessage("Email Sent to Pj");
+    } else
+      emailjs
+        .sendForm(
+          "service_legkx49",
+          "template_w1mzrmk",
+          form.current,
+          "PPAMBtfoRREzeh7bc"
+        )
+        .then(
+          (result) => {
+            setErrorMessage("Email sent");
+            console.log("SUCCESS!", result.status, result.text);
+          },
+          (error) => {
+            console.log("Failed", error.text);
+          }
+        );
     setUserName("");
     setEmail("");
     setMessage("");
-    emailjs
-      .sendForm(
-        "service_legkx49",
-        "template_w1mzrmk",
-        form.current,
-        "PPAMBtfoRREzeh7bc"
-      )
-      .then(
-        (result) => {
-          console.log("SUCCESS!", result.status, result.text);
-        },
-        (error) => {
-          console.log("Failed", error.text);
-        }
-      );
   };
 
   return (
