@@ -57,7 +57,7 @@ const Contact = () => {
     <>
       <div
         className="col-4 py-2 my-2 rounded mx-auto d-block"
-        style={{ width: "30rem" }}
+        style={{ width: "25rem" }}
       >
         <h1>Contact</h1>
         <div className="container">

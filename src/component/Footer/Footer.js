@@ -36,8 +36,8 @@ const Footer = () => {
         </div>
         <br></br>
         <Card.Text className="text-center">
-          Phone no: 707 931 9391 Email: phinjock@gmail <br></br>Based in:Sonoma,
-          California
+          Phone no: 707 931 9391 Email: phinjock@gmail.com <br></br>Based
+          in:Sonoma, California
         </Card.Text>
       </div>
     </footer>
