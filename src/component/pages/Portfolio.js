@@ -5,7 +5,7 @@ import Card from "react-bootstrap/Card";
 import Codeapediaimg from "../../images/codepedia.png";
 import AirSoupimg from "../../images/airsoup.png";
 import Noteimg from "../../images/Notetaker.png";
-import Passwordimg from "../../images/PasswordGenerator.png";
+import Barcadeimg from "../../images/Barcade.png";
 import Schedulerimg from "../../images/scheduler.png";
 import Weather from "../../images/weather dashboard.png";
 import { FaGithubSquare } from "react-icons/fa";
@@ -83,6 +83,56 @@ const Portfolio = () => {
                   <Card.Title>
                     <Button className="bg-image hoversm" variant="transparent">
                       <a
+                        href="https://secure-everglades-09731.herokuapp.com/"
+                        className="siteLink"
+                      >
+                        Barcade
+                      </a>
+                    </Button>
+                    {"  "}
+                    <Button className="bg-image hoversm" variant="transparent">
+                      <a href="https://github.com/iamjoyfulgirl/barcade">
+                        <FaGithubSquare />
+                      </a>
+                    </Button>
+                    <Card.Img src={Barcadeimg} />
+                  </Card.Title>
+                  <Card.Text>Drinks, Chats and Games</Card.Text>
+                </Card.Body>
+              </Card>
+            </div>
+            <div className="col-lg-6 mb-4 ">
+              <Card className="text-center hovercard">
+                <Card.Body>
+                  <Card.Title>
+                    <Button className="bg-image hoversm" variant="transparent">
+                      <a
+                        href="https://pjsherpa.github.io/Work-Day-Scheduler/"
+                        className="siteLink"
+                      >
+                        Scheduler
+                      </a>
+                    </Button>
+                    {"  "}
+                    <Button className="bg-image hoversm" variant="transparent">
+                      <a href="https://github.com/pjsherpa/Work-Day-Scheduler">
+                        <FaGithubSquare />
+                      </a>
+                    </Button>
+                    <Card.Img src={Schedulerimg} />
+                  </Card.Title>
+                  <Card.Text>Busy days needs a good schedule</Card.Text>
+                </Card.Body>
+              </Card>
+            </div>
+          </div>
+          <div className="row">
+            <div className="col-lg-6 mb-4 ">
+              <Card className="text-center hovercard">
+                <Card.Body>
+                  <Card.Title>
+                    <Button className="bg-image hoversm" variant="transparent">
+                      <a
                         href="https://pjsherpa.github.io/weather-dashboard-v.01/"
                         className="siteLink"
                       >
@@ -123,56 +173,6 @@ const Portfolio = () => {
                     <Card.Img src={Noteimg} />
                   </Card.Title>
                   <Card.Text>Best practice is to always take notes</Card.Text>
-                </Card.Body>
-              </Card>
-            </div>
-          </div>
-          <div className="row">
-            <div className="col-lg-6 mb-4 ">
-              <Card className="text-center hovercard">
-                <Card.Body>
-                  <Card.Title>
-                    <Button className="bg-image hoversm" variant="transparent">
-                      <a
-                        href="https://pjsherpa.github.io/Work-Day-Scheduler/"
-                        className="siteLink"
-                      >
-                        Scheduler
-                      </a>
-                    </Button>
-                    {"  "}
-                    <Button className="bg-image hoversm" variant="transparent">
-                      <a href="https://github.com/pjsherpa/Work-Day-Scheduler">
-                        <FaGithubSquare />
-                      </a>
-                    </Button>
-                    <Card.Img src={Schedulerimg} />
-                  </Card.Title>
-                  <Card.Text>Busy days needs a good schedule</Card.Text>
-                </Card.Body>
-              </Card>
-            </div>
-            <div className="col-lg-6 mb-4 ">
-              <Card className="text-center hovercard">
-                <Card.Body>
-                  <Card.Title>
-                    <Button className="bg-image hoversm" variant="transparent">
-                      <a
-                        href="https://pjsherpa.github.io/Password-Generator/"
-                        className="siteLink"
-                      >
-                        Geneate password
-                      </a>
-                    </Button>
-                    {"  "}
-                    <Button className="bg-image hoversm" variant="transparent">
-                      <a href="https://github.com/pjsherpa/Password-Generator">
-                        <FaGithubSquare />
-                      </a>
-                    </Button>
-                    <Card.Img src={Passwordimg} />
-                  </Card.Title>
-                  <Card.Text>Create Password with character choices</Card.Text>
                 </Card.Body>
               </Card>
             </div>
