@@ -15,8 +15,11 @@ const AboutMe = () => {
         <p className="text-center">
           My name is Phinjock Sherpa aka Pj. Having the oppurtunity to work
           alongside developers in my previous job as an end user has inspired
-          and lead me to learn full stack web development at UC Berkeley. My aim
-          is to become a Software Engineer.
+          and lead me to study full stack web development. I have completed my
+          full stack web development at UC Berkeley. I have a keen desire to
+          learn new technology and continuing my coding practices through other
+          means of online studies currently. My aim is to become a Software
+          Engineer.
         </p>
         <p className="text-center">I'm adventurous and love to travel. </p>
 
