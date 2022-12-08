@@ -21,7 +21,9 @@ const AboutMe = () => {
           means of online studies currently. My aim is to become a Software
           Engineer.
         </p>
-        <p className="text-center">I'm adventurous and love to travel. </p>
+        <p className="text-center">
+          Personal side note:I'm adventurous and love to travel.{" "}
+        </p>
 
         <p className="text-center">Thank you for visiting my portfolio.</p>
       </div>
