@@ -35,8 +35,8 @@ const Resume = () => {
         <button type="button" className="btn btn-success btn-sm resume">
           {" "}
           <a
-            href="PjResume.pdf"
-            download="PjResume.pdf"
+            href="pjResume.pdf"
+            download="pjResume.pdf"
             style={{ color: "black" }}
           >
             ⬇
