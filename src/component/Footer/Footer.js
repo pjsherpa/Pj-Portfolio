@@ -13,7 +13,7 @@ const Footer = () => {
         <div className="row justify-content-md-center">
           <IconContext.Provider value={{ color: "white", size: "40px" }}>
             <div className="col col-lg-2 hover">
-              <a href="https://www.linkedin.com/in/pjsherpa/">
+              <a href="https://www.linkedin.com/in/phinjock-sherpa/">
                 <GrLinkedin className="w-100" />
               </a>
             </div>
