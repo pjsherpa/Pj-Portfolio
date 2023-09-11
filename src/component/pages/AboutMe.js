@@ -4,9 +4,7 @@ const AboutMe = () => {
   return (
     <>
       <div className="container ">
-        <h1 className="d-flex justify-content-md-center text-center">
-          About Me
-        </h1>
+        <h1 className="d-flex justify-content-md-center">About Me</h1>
 
         <div className="d-flex justify-content-md-center">
           <div className="col-lg-2 mb-2">
@@ -15,30 +13,23 @@ const AboutMe = () => {
         </div>
         <br></br>
 
-        <h2 className="text-center">Greetings,</h2>
-        <p>
-          I'm Phinjock Sherpa (Pj), a UC Berkeley full-stack web development
-          graduate, eager to join your team as a React Developer.
-          <p>My background includes:</p>
-          <ul>
-            <li>Transitioning from an end-user role into web development.</li>
-            <li>Strong fundamentals in web development from UC Berkeley.</li>
-            <li>
-              A commitment to ongoing learning and staying current with tech
-              trends.
-            </li>
-            <li>Aspiring to become a Software Engineer.</li>
-            <li>
-              Possessing problem-solving skills and a collaborative mindset.
-            </li>
-            <li>An adventurous spirit with a love for travel.</li>
-          </ul>
-          Thank you for considering my portfolio. Let's discuss how I can
-          contribute to your team's success.
-        </p>
+        <div className="text-center">
+          <h2>Greetings,</h2>
+          <p>
+            My name is Phinjock Sherpa(Pj), and I graduated from UC Berkeley
+            with a full-stack web development background. I aspire to become a
+            Software Engineer and possess strong fundamentals in web
+            development. My journey began by transitioning from an end-user
+            role, and I'm committed to continuous learning and staying updated
+            with tech trends. With problem-solvin~g skills, a collaborative
+            mindset, and a love for travel, I'm eager to contribute to your
+            team's success as a React Developer.
+          </p>
+          <p>Thank you for considering my portfolio.</p>
 
-        <p>Best regards,</p>
-        <p> Phinjock Sherpa (Pj)</p>
+          <p>Best regards,</p>
+          <p> Phinjock Sherpa (Pj)</p>
+        </div>
       </div>
     </>
   );
