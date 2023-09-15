@@ -1,5 +1,4 @@
 import { FaGithubSquare, FaEnvelope } from "react-icons/fa";
-import { GrLinkedin } from "react-icons/gr";
 import { TfiInstagram } from "react-icons/tfi";
 import { IconContext } from "react-icons";
 import Card from "react-bootstrap/Card";
@@ -12,11 +11,6 @@ const Footer = () => {
       <div className="container">
         <div className="row justify-content-md-center">
           <IconContext.Provider value={{ color: "white", size: "40px" }}>
-            <div className="col col-lg-2 hover">
-              <a href="https://www.linkedin.com/in/phinjock-sherpa/">
-                <GrLinkedin className="w-100" />
-              </a>
-            </div>
             <div className="col col-lg-2 hover">
               <a href="mailto:phinjock@gmail.com">
                 <FaEnvelope className="w-100" />
