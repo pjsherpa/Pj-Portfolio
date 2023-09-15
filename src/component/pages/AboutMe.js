@@ -16,14 +16,13 @@ const AboutMe = () => {
         <div className="text-center">
           <h2>Greetings,</h2>
           <p>
-            My name is Phinjock Sherpa(Pj), and I graduated from UC Berkeley
-            with a full-stack web development background. I aspire to become a
-            Software Engineer and possess strong fundamentals in web
-            development. My journey began by transitioning from an end-user
-            role, and I'm committed to continuous learning and staying updated
-            with tech trends. With problem-solvin~g skills, a collaborative
-            mindset, and a love for travel, I'm eager to contribute to your
-            team's success as a React Developer.
+            React front end developer experienced in building responsive and
+            user-friendly web applications,with a background in Accounting. I
+            have acquired comprehensive full-stack web development training and
+            certification from UC Berkeley’s coding boot camp. I am passionate
+            about creating apps and focused on designing and developing
+            mobile-first applications. I excel in team environments and have the
+            ability to see projects through from conception to completion.
           </p>
           <p>Thank you for considering my portfolio.</p>
 
