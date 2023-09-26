@@ -25,7 +25,6 @@ const AboutMe = () => {
             ability to see projects through from conception to completion.
           </p>
           <p>Thank you for considering my portfolio.</p>
-
           <p>Best regards,</p>
           <p> Phinjock Sherpa (Pj)</p>
         </div>
