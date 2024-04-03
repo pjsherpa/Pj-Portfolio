@@ -24,11 +24,6 @@ npx create-react-app, npm i: gh-pages, js-file-download, react-bootstrap, react-
 
 ### Deployment
 
-Github:
-https://github.com/pjsherpa/Pj-Portfolio
-
-Application Deployment:
-https://pjsherpa.github.io/Pj-Portfolio/
 
 ### Screenshots
 
